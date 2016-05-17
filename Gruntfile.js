@@ -33,15 +33,15 @@ module.exports = function (grunt) {
 				depFilePath: 'build/map.js',
 				// alias: 'src/config.js'
 				// alias: ['src/alias.js', 'mods/abc/alias.js']
-				//alias: {
-				//	'iscroll': {
-				//		alias:['h5-home/widgets/libs/iscroll']
-				//	},
-				//	'moment': {
-				//		alias:['h5-home/widgets/libs/moment']
-				//	}
-				//},
-				ext: '-min'
+				alias: {
+					'index': {
+						alias:['h5-home/widgets/iscroll/index']
+					},
+					'moment': {
+						alias:['h5-home/widgets/libs/moment']
+					}
+				},
+				ext: ''
 			},
 			main: {
 				files: [
