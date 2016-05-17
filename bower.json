@@ -21,7 +21,6 @@
         "stylesheets",
         "demo",
         "*.html",
-        "src",
         "tests",
         "test",
         "*.md",
