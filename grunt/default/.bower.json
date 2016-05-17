@@ -1,0 +1,36 @@
+{
+  "name": "xapp-grunt",
+  "version": "0.1.2",
+  "authors": [
+    "拔赤 <bachi@taobao.com>",
+    "弘树 <tiehang.lth@alibaba-inc.com>"
+  ],
+  "description": "default config for grunt tasks",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "grunt",
+    "config"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "editorconfig",
+    ".gitignore"
+  ],
+  "homepage": "https://github.com/jayli/xapp-grunt",
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.2",
+    "commit": "82c290fd1e3089cabc5fe72c37fb3a2ed317644a"
+  },
+  "_source": "https://github.com/jayli/xapp-grunt.git",
+  "_target": "*",
+  "_originalSource": "xapp-grunt"
+}

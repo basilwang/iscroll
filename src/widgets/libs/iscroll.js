@@ -7,7 +7,7 @@
  *		Iscroll.init();
  * });
  */
-KISSY.add("h5-home/widgets/iscroll/index", function() {
+KISSY.add(function() {
 	(function(window, document, Math) {
 		var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(callback) {
 				window.setTimeout(callback, 1e3 / 60);

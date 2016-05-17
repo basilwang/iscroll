@@ -1,0 +1,26 @@
+{
+  "name": "xapp-grunt",
+  "version": "0.1.0",
+  "authors": [
+  	"拔赤 <bachi@taobao.com>",
+    "弘树 <tiehang.lth@alibaba-inc.com>"
+  ],
+  "description": "default config for grunt tasks",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "grunt",
+    "config"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "editorconfig",
+    ".gitignore"
+  ]
+}
