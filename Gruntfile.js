@@ -27,29 +27,33 @@ module.exports = function (grunt) {
 		kmb: {
 			options: {
 				pkgName: 'h5-home',
-				compress: true,
+				compress: false,
 				comboRequire: false,
 				addModuleName: true,
 				depFilePath: 'build/map.js',
 				// alias: 'src/config.js'
 				// alias: ['src/alias.js', 'mods/abc/alias.js']
-				alias: {
-					'iscroll': {
-						alias:['h5-home/widgets/libs/iscroll']
-					},
-					'moment': {
-						alias:['h5-home/widgets/libs/moment']
-					}
-				},
+				//alias: {
+				//	'iscroll': {
+				//		alias:['h5-home/widgets/libs/iscroll']
+				//	},
+				//	'moment': {
+				//		alias:['h5-home/widgets/libs/moment']
+				//	}
+				//},
 				ext: '-min'
 			},
 			main: {
 				files: [
 					{
-						cwd: 'src',
+						cwd: '',
 						src: ['**/*.js',
 							'!widgets/base/**/*',
 							'!**/*/Gruntfile.js',
+							'!node_modules/**/*',
+							'!test/**/*',
+							'!grunt/**/*',
+							'!demo/**/*',
 							'!**/build/**/*'],
 						dest: 'build/',
 						expand: true

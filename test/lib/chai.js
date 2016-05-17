@@ -57,7 +57,7 @@ require.aliases = {};
  *
  * Lookup:
  *
- *   - PATH/iscroll.js
+ *   - PATH/index.js
  *   - PATH.js
  *   - PATH
  *
@@ -73,7 +73,7 @@ require.resolve = function(path) {
     path,
     path + '.js',
     path + '.json',
-    path + '/iscroll.js',
+    path + '/index.js',
     path + '/index.json'
   ];
 
@@ -200,7 +200,7 @@ require.relative = function(parent) {
 
   return localRequire;
 };
-require.register("chaijs-assertion-error/iscroll.js", function(exports, require, module){
+require.register("chaijs-assertion-error/index.js", function(exports, require, module){
 /*!
  * assertion-error
  * Copyright(c) 2013 Jake Luer <jake@qualiancy.com>
@@ -718,7 +718,7 @@ function objectEqual(a, b, m) {
 }
 
 });
-require.register("chai/iscroll.js", function(exports, require, module){
+require.register("chai/index.js", function(exports, require, module){
 module.exports = require('./lib/chai');
 
 });
@@ -3890,7 +3890,7 @@ module.exports = function getProperties(object) {
 };
 
 });
-require.register("chai/lib/chai/utils/iscroll.js", function(exports, require, module){
+require.register("chai/lib/chai/utils/index.js", function(exports, require, module){
 /*!
  * chai
  * Copyright(c) 2011 Jake Luer <jake@alogicalparadox.com>
@@ -4676,18 +4676,18 @@ module.exports = function (obj) {
 
 
 
-require.alias("chaijs-assertion-error/iscroll.js", "chai/deps/assertion-error/iscroll.js");
-require.alias("chaijs-assertion-error/iscroll.js", "chai/deps/assertion-error/iscroll.js");
-require.alias("chaijs-assertion-error/iscroll.js", "assertion-error/iscroll.js");
-require.alias("chaijs-assertion-error/iscroll.js", "chaijs-assertion-error/iscroll.js");
+require.alias("chaijs-assertion-error/index.js", "chai/deps/assertion-error/index.js");
+require.alias("chaijs-assertion-error/index.js", "chai/deps/assertion-error/index.js");
+require.alias("chaijs-assertion-error/index.js", "assertion-error/index.js");
+require.alias("chaijs-assertion-error/index.js", "chaijs-assertion-error/index.js");
 require.alias("chaijs-deep-eql/lib/eql.js", "chai/deps/deep-eql/lib/eql.js");
-require.alias("chaijs-deep-eql/lib/eql.js", "chai/deps/deep-eql/iscroll.js");
-require.alias("chaijs-deep-eql/lib/eql.js", "deep-eql/iscroll.js");
+require.alias("chaijs-deep-eql/lib/eql.js", "chai/deps/deep-eql/index.js");
+require.alias("chaijs-deep-eql/lib/eql.js", "deep-eql/index.js");
 require.alias("chaijs-type-detect/lib/type.js", "chaijs-deep-eql/deps/type-detect/lib/type.js");
-require.alias("chaijs-type-detect/lib/type.js", "chaijs-deep-eql/deps/type-detect/iscroll.js");
-require.alias("chaijs-type-detect/lib/type.js", "chaijs-type-detect/iscroll.js");
-require.alias("chaijs-deep-eql/lib/eql.js", "chaijs-deep-eql/iscroll.js");
-require.alias("chai/iscroll.js", "chai/iscroll.js");if (typeof exports == "object") {
+require.alias("chaijs-type-detect/lib/type.js", "chaijs-deep-eql/deps/type-detect/index.js");
+require.alias("chaijs-type-detect/lib/type.js", "chaijs-type-detect/index.js");
+require.alias("chaijs-deep-eql/lib/eql.js", "chaijs-deep-eql/index.js");
+require.alias("chai/index.js", "chai/index.js");if (typeof exports == "object") {
   module.exports = require("chai");
 } else if (typeof define == "function" && define.amd) {
   define([], function(){ return require("chai"); });

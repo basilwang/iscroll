@@ -5,7 +5,7 @@
     "authors": [
         "basilwang <wanghuajie@yunwii.com>"
     ],
-    "main": "./index.js",
+    "main": "src/index.js",
     "ignore": [
         "**/.*",
         ".jshintrc",
@@ -25,6 +25,7 @@
         "tests",
         "test",
         "*.md",
+        "grunt",
         "package.json"
     ],
     "dependencies": {
